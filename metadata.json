@@ -1,0 +1,6 @@
+{
+  "name": "Al-Qur'an Karim Indonesia & Tahfidz",
+  "description": "Aplikasi Al-Qur'an digital standar Kemenag RI dengan fitur membaca, audio murottal syeikh dunia, mode menghafal tahfidz, tafsir lengkap, asbabun nuzul, kisah nabi & hikmah, dan pengingat harian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

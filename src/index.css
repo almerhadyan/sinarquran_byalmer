@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-arabic {
+  font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  direction: rtl;
+}
+
+.font-arabic-scheherazade {
+  font-family: 'Scheherazade New', 'Amiri', serif;
+  direction: rtl;
+}
+
+/* Custom scrollbar for Quran verses & tafsir reading */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 162, 158, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 162, 158, 0.7);
+}
+
+/* Verse number ornament */
+.ayah-number-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Scheherazade New', 'Amiri', serif;
+}
+
+/* Smooth reading line */
+.verse-active {
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.08) 0%, rgba(16, 185, 129, 0.02) 100%);
+  border-right: 3px solid #059669;
+}
